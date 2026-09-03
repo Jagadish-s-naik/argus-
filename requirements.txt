@@ -1,0 +1,13 @@
+# Argus RGB-Thermal Pedestrian Detection Requirements
+torch>=1.12.0
+torchvision>=0.13.0
+mmcv-full>=1.6.0
+mmdet>=2.25.0
+flask>=2.2.0
+flask-cors>=3.0.10
+opencv-python>=4.6.0
+numpy>=1.21.0
+scipy>=1.8.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
+requests>=2.28.0

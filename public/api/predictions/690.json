@@ -1,0 +1,144 @@
+{
+  "image_id": 690,
+  "predictions": [
+    {
+      "image_id": 690,
+      "bbox": [
+        884.6,
+        539.01,
+        89.67,
+        199.94
+      ],
+      "score": 0.8004,
+      "scale": "large"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        975.08,
+        585.76,
+        61.07,
+        128.43
+      ],
+      "score": 0.7301,
+      "scale": "medium"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        1080.96,
+        559.8,
+        34.79,
+        78.11
+      ],
+      "score": 0.3078,
+      "scale": "medium"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        1383.14,
+        88.83,
+        61.48,
+        114.73
+      ],
+      "score": 0.0502,
+      "scale": "medium"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        952.53,
+        558.78,
+        61.23,
+        128.23
+      ],
+      "score": 0.0285,
+      "scale": "medium"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        999.44,
+        588.22,
+        54.26,
+        118.7
+      ],
+      "score": 0.0256,
+      "scale": "medium"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        1031.31,
+        572.94,
+        49.32,
+        107.76
+      ],
+      "score": 0.0219,
+      "scale": "medium"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        1068.02,
+        578.78,
+        43.33,
+        97.15
+      ],
+      "score": 0.0206,
+      "scale": "medium"
+    },
+    {
+      "image_id": 690,
+      "bbox": [
+        1057.83,
+        559.67,
+        44.9,
+        91.56
+      ],
+      "score": 0.0193,
+      "scale": "medium"
+    }
+  ],
+  "ground_truth": [
+    {
+      "id": 2386,
+      "bbox": [
+        887,
+        542,
+        78,
+        200
+      ],
+      "scale": "large"
+    },
+    {
+      "id": 2387,
+      "bbox": [
+        967,
+        580,
+        67,
+        136
+      ],
+      "scale": "medium"
+    }
+  ],
+  "count": 9,
+  "gt_count": 2,
+  "image_info": {
+    "filename": "00691.jpg",
+    "width": 1920,
+    "height": 1080,
+    "split": "test"
+  },
+  "stats": {
+    "max_score": 0.8004,
+    "min_score": 0.0193,
+    "avg_score": 0.2227,
+    "by_scale": {
+      "small": 0,
+      "medium": 8,
+      "large": 1
+    }
+  }
+}

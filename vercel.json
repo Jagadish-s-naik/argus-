@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "^/api/image\\?split=test&modality=rgb&filename=(.*)$",
+      "dest": "/dataset/rgb/$1"
+    },
+    {
+      "src": "^/api/image\\?split=test&modality=thermal&filename=(.*)$",
+      "dest": "/dataset/thermal/$1"
+    },
+    {
+      "src": "^/api/predictions\\?image_id=([0-9]+).*$",
+      "dest": "/api/predictions/$1.json"
+    },
+    {
+      "src": "^/api/health$",
+      "dest": "/api/health.json"
+    },
+    {
+      "src": "^/api/summary$",
+      "dest": "/api/summary.json"
+    },
+    {
+      "src": "^/api/image-list.*$",
+      "dest": "/api/image-list.json"
+    },
+    {
+      "src": "^/api/dataset-stats$",
+      "dest": "/api/dataset-stats.json"
+    },
+    {
+      "src": "^/api/benchmark$",
+      "dest": "/api/benchmark.json"
+    },
+    {
+      "src": "^/api/cmagm-results$",
+      "dest": "/api/cmagm-results.json"
+    },
+    {
+      "src": "^/api/error-analysis$",
+      "dest": "/api/error-analysis.json"
+    },
+    {
+      "src": "^/api/comparison-images$",
+      "dest": "/api/comparison-images.json"
+    },
+    {
+      "src": "^/api/comparison-image/(.*)$",
+      "dest": "/comparison/$1"
+    },
+    {
+      "src": "^/api/infer$",
+      "dest": "/api/infer_sample.json"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
+      "source": "/(dataset|comparison|images)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "image_id": 661,
+  "predictions": [
+    {
+      "image_id": 661,
+      "bbox": [
+        826.41,
+        294.37,
+        112.87,
+        213.95
+      ],
+      "score": 0.7873,
+      "scale": "large"
+    },
+    {
+      "image_id": 661,
+      "bbox": [
+        564.32,
+        665.61,
+        87.83,
+        208.51
+      ],
+      "score": 0.738,
+      "scale": "large"
+    },
+    {
+      "image_id": 661,
+      "bbox": [
+        510.39,
+        785.12,
+        93.52,
+        143.05
+      ],
+      "score": 0.6656,
+      "scale": "large"
+    },
+    {
+      "image_id": 661,
+      "bbox": [
+        530.51,
+        721.5,
+        95.98,
+        180.91
+      ],
+      "score": 0.0953,
+      "scale": "large"
+    },
+    {
+      "image_id": 661,
+      "bbox": [
+        874.53,
+        290.4,
+        70.93,
+        182.46
+      ],
+      "score": 0.0624,
+      "scale": "large"
+    },
+    {
+      "image_id": 661,
+      "bbox": [
+        837.18,
+        286.93,
+        71.2,
+        142.15
+      ],
+      "score": 0.0401,
+      "scale": "large"
+    },
+    {
+      "image_id": 661,
+      "bbox": [
+        576.39,
+        736.78,
+        70.03,
+        152.25
+      ],
+      "score": 0.0322,
+      "scale": "large"
+    }
+  ],
+  "ground_truth": [
+    {
+      "id": 2299,
+      "bbox": [
+        511,
+        786,
+        86,
+        134
+      ],
+      "scale": "large"
+    },
+    {
+      "id": 2300,
+      "bbox": [
+        558,
+        658,
+        91,
+        212
+      ],
+      "scale": "large"
+    },
+    {
+      "id": 2301,
+      "bbox": [
+        829,
+        315,
+        96,
+        190
+      ],
+      "scale": "large"
+    },
+    {
+      "id": 2302,
+      "bbox": [
+        899,
+        317,
+        44,
+        102
+      ],
+      "scale": "medium"
+    }
+  ],
+  "count": 7,
+  "gt_count": 4,
+  "image_info": {
+    "filename": "00662.jpg",
+    "width": 1920,
+    "height": 1080,
+    "split": "test"
+  },
+  "stats": {
+    "max_score": 0.7873,
+    "min_score": 0.0322,
+    "avg_score": 0.3458,
+    "by_scale": {
+      "small": 0,
+      "medium": 0,
+      "large": 7
+    }
+  }
+}

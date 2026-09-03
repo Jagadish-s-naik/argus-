@@ -1,0 +1,431 @@
+{
+  "dataset_stats": {
+    "train": {
+      "num_images": 1200,
+      "num_annotations": 8138,
+      "avg_instances_per_image": 6.781666666666666,
+      "small": 809,
+      "medium": 5449,
+      "large": 1880,
+      "resolutions": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "categories": [
+        {
+          "id": 0,
+          "name": "person"
+        }
+      ]
+    },
+    "val": {
+      "num_images": 300,
+      "num_annotations": 2337,
+      "avg_instances_per_image": 7.79,
+      "small": 423,
+      "medium": 1592,
+      "large": 322,
+      "resolutions": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "categories": [
+        {
+          "id": 0,
+          "name": "person"
+        }
+      ]
+    },
+    "test": {
+      "num_images": 200,
+      "num_annotations": 2068,
+      "avg_instances_per_image": 10.34,
+      "small": 529,
+      "medium": 1270,
+      "large": 269,
+      "resolutions": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "categories": [
+        {
+          "id": 0,
+          "name": "person"
+        }
+      ]
+    }
+  },
+  "benchmark": {
+    "both_val": {
+      "mode": "both",
+      "split": "val",
+      "model_size_mb": 462.6349821090698,
+      "total_params": 60634267,
+      "inference_time_ms": 1429.4359035939979,
+      "fps": 0.6995766634136745,
+      "metrics": {
+        "bbox_mAP": 0.338,
+        "bbox_mAP_50": 0.721,
+        "bbox_mAP_75": 0.273,
+        "bbox_mAP_s": 0.144,
+        "bbox_mAP_m": 0.325,
+        "bbox_mAP_l": 0.585
+      }
+    },
+    "rgb_val": {
+      "mode": "rgb",
+      "split": "val",
+      "model_size_mb": 462.6349821090698,
+      "total_params": 60634267,
+      "inference_time_ms": 1413.5582863084421,
+      "fps": 0.7074345711003793,
+      "metrics": {
+        "bbox_mAP": 0.075,
+        "bbox_mAP_50": 0.261,
+        "bbox_mAP_75": 0.025,
+        "bbox_mAP_s": 0.008,
+        "bbox_mAP_m": 0.07,
+        "bbox_mAP_l": 0.179
+      }
+    },
+    "thermal_val": {
+      "mode": "thermal",
+      "split": "val",
+      "model_size_mb": 462.6349821090698,
+      "total_params": 60634267,
+      "inference_time_ms": 1455.7266755392086,
+      "fps": 0.6869421415456269,
+      "metrics": {
+        "bbox_mAP": 0.242,
+        "bbox_mAP_50": 0.521,
+        "bbox_mAP_75": 0.193,
+        "bbox_mAP_s": 0.074,
+        "bbox_mAP_m": 0.221,
+        "bbox_mAP_l": 0.546
+      }
+    },
+    "both_test": {
+      "mode": "both",
+      "split": "test",
+      "model_size_mb": 462.6349821090698,
+      "total_params": 60634267,
+      "inference_time_ms": 1485.7772642643608,
+      "fps": 0.6730483929535164,
+      "metrics": {
+        "bbox_mAP": 0.299,
+        "bbox_mAP_50": 0.674,
+        "bbox_mAP_75": 0.227,
+        "bbox_mAP_s": 0.129,
+        "bbox_mAP_m": 0.299,
+        "bbox_mAP_l": 0.554
+      }
+    },
+    "rgb_test": {
+      "mode": "rgb",
+      "split": "test",
+      "model_size_mb": 462.6349821090698,
+      "total_params": 60634267,
+      "inference_time_ms": 1384.2389607549312,
+      "fps": 0.7224186201597906,
+      "metrics": {
+        "bbox_mAP": 0.062,
+        "bbox_mAP_50": 0.209,
+        "bbox_mAP_75": 0.022,
+        "bbox_mAP_s": 0.009,
+        "bbox_mAP_m": 0.06,
+        "bbox_mAP_l": 0.152
+      }
+    },
+    "thermal_test": {
+      "mode": "thermal",
+      "split": "test",
+      "model_size_mb": 462.6349821090698,
+      "total_params": 60634267,
+      "inference_time_ms": 1391.4647294049287,
+      "fps": 0.7186671561755347,
+      "metrics": {
+        "bbox_mAP": 0.189,
+        "bbox_mAP_50": 0.451,
+        "bbox_mAP_75": 0.134,
+        "bbox_mAP_s": 0.05,
+        "bbox_mAP_m": 0.185,
+        "bbox_mAP_l": 0.478
+      }
+    }
+  },
+  "cmagm_results": {
+    "both_val": {
+      "mode": "both",
+      "split": "val",
+      "model_size_mb": 462.1324653625488,
+      "total_params": 60700990,
+      "inference_time_ms": 4665.733765435699,
+      "fps": 0.21432856015234236,
+      "metrics": {
+        "bbox_mAP": 0.297,
+        "bbox_mAP_50": 0.651,
+        "bbox_mAP_75": 0.233,
+        "bbox_mAP_s": 0.111,
+        "bbox_mAP_m": 0.274,
+        "bbox_mAP_l": 0.588
+      }
+    },
+    "rgb_val": {
+      "mode": "rgb",
+      "split": "val",
+      "model_size_mb": 462.1326484680176,
+      "total_params": 60700990,
+      "inference_time_ms": 12137.335887691317,
+      "fps": 0.08239040340097345,
+      "metrics": {
+        "bbox_mAP": 0.058,
+        "bbox_mAP_50": 0.189,
+        "bbox_mAP_75": 0.022,
+        "bbox_mAP_s": 0.004,
+        "bbox_mAP_m": 0.047,
+        "bbox_mAP_l": 0.166
+      }
+    },
+    "thermal_val": {
+      "mode": "thermal",
+      "split": "val",
+      "model_size_mb": 462.1326484680176,
+      "total_params": 60700990,
+      "inference_time_ms": 3708.4808677634937,
+      "fps": 0.26965219335298307,
+      "metrics": {
+        "bbox_mAP": 0.213,
+        "bbox_mAP_50": 0.479,
+        "bbox_mAP_75": 0.162,
+        "bbox_mAP_s": 0.041,
+        "bbox_mAP_m": 0.189,
+        "bbox_mAP_l": 0.542
+      }
+    },
+    "both_test": {
+      "mode": "both",
+      "split": "test",
+      "model_size_mb": 462.1326484680176,
+      "total_params": 60700990,
+      "inference_time_ms": 2928.151336746599,
+      "fps": 0.34151240321857024,
+      "metrics": {
+        "bbox_mAP": 0.268,
+        "bbox_mAP_50": 0.609,
+        "bbox_mAP_75": 0.201,
+        "bbox_mAP_s": 0.105,
+        "bbox_mAP_m": 0.268,
+        "bbox_mAP_l": 0.549
+      }
+    },
+    "rgb_test": {
+      "mode": "rgb",
+      "split": "test",
+      "model_size_mb": 462.1326484680176,
+      "total_params": 60700990,
+      "inference_time_ms": 3362.8014451894333,
+      "fps": 0.29737111045629044,
+      "metrics": {
+        "bbox_mAP": 0.037,
+        "bbox_mAP_50": 0.117,
+        "bbox_mAP_75": 0.015,
+        "bbox_mAP_s": 0.003,
+        "bbox_mAP_m": 0.032,
+        "bbox_mAP_l": 0.111
+      }
+    },
+    "thermal_test": {
+      "mode": "thermal",
+      "split": "test",
+      "model_size_mb": 462.1326484680176,
+      "total_params": 60700990,
+      "inference_time_ms": 3378.188582520988,
+      "fps": 0.29601663008811235,
+      "metrics": {
+        "bbox_mAP": 0.182,
+        "bbox_mAP_50": 0.425,
+        "bbox_mAP_75": 0.123,
+        "bbox_mAP_s": 0.029,
+        "bbox_mAP_m": 0.176,
+        "bbox_mAP_l": 0.494
+      }
+    }
+  },
+  "error_analysis": {
+    "gt_summary": {
+      "test": {
+        "small": 529,
+        "medium": 1270,
+        "large": 269
+      },
+      "val": {
+        "small": 423,
+        "medium": 1592,
+        "large": 322
+      }
+    },
+    "modality_scale_comparison": {
+      "Baseline (Both Val)": {
+        "bbox_mAP": 0.338,
+        "bbox_mAP_50": 0.721,
+        "bbox_mAP_75": 0.273,
+        "bbox_mAP_s": 0.144,
+        "bbox_mAP_m": 0.325,
+        "bbox_mAP_l": 0.585
+      },
+      "Baseline (RGB Val)": {
+        "bbox_mAP": 0.075,
+        "bbox_mAP_50": 0.261,
+        "bbox_mAP_75": 0.025,
+        "bbox_mAP_s": 0.008,
+        "bbox_mAP_m": 0.07,
+        "bbox_mAP_l": 0.179
+      },
+      "Baseline (Thermal Val)": {
+        "bbox_mAP": 0.242,
+        "bbox_mAP_50": 0.521,
+        "bbox_mAP_75": 0.193,
+        "bbox_mAP_s": 0.074,
+        "bbox_mAP_m": 0.221,
+        "bbox_mAP_l": 0.546
+      },
+      "Baseline (Both Test)": {
+        "bbox_mAP": 0.299,
+        "bbox_mAP_50": 0.674,
+        "bbox_mAP_75": 0.227,
+        "bbox_mAP_s": 0.129,
+        "bbox_mAP_m": 0.299,
+        "bbox_mAP_l": 0.554
+      },
+      "Baseline (RGB Test)": {
+        "bbox_mAP": 0.062,
+        "bbox_mAP_50": 0.209,
+        "bbox_mAP_75": 0.022,
+        "bbox_mAP_s": 0.009,
+        "bbox_mAP_m": 0.06,
+        "bbox_mAP_l": 0.152
+      },
+      "Baseline (Thermal Test)": {
+        "bbox_mAP": 0.189,
+        "bbox_mAP_50": 0.451,
+        "bbox_mAP_75": 0.134,
+        "bbox_mAP_s": 0.05,
+        "bbox_mAP_m": 0.185,
+        "bbox_mAP_l": 0.478
+      },
+      "CMAGM (Both Val)": {
+        "bbox_mAP": 0.297,
+        "bbox_mAP_50": 0.651,
+        "bbox_mAP_75": 0.233,
+        "bbox_mAP_s": 0.111,
+        "bbox_mAP_m": 0.274,
+        "bbox_mAP_l": 0.588
+      },
+      "CMAGM (RGB Val)": {
+        "bbox_mAP": 0.058,
+        "bbox_mAP_50": 0.189,
+        "bbox_mAP_75": 0.022,
+        "bbox_mAP_s": 0.004,
+        "bbox_mAP_m": 0.047,
+        "bbox_mAP_l": 0.166
+      },
+      "CMAGM (Thermal Val)": {
+        "bbox_mAP": 0.213,
+        "bbox_mAP_50": 0.479,
+        "bbox_mAP_75": 0.162,
+        "bbox_mAP_s": 0.041,
+        "bbox_mAP_m": 0.189,
+        "bbox_mAP_l": 0.542
+      },
+      "CMAGM (Both Test)": {
+        "bbox_mAP": 0.268,
+        "bbox_mAP_50": 0.609,
+        "bbox_mAP_75": 0.201,
+        "bbox_mAP_s": 0.105,
+        "bbox_mAP_m": 0.268,
+        "bbox_mAP_l": 0.549
+      },
+      "CMAGM (RGB Test)": {
+        "bbox_mAP": 0.037,
+        "bbox_mAP_50": 0.117,
+        "bbox_mAP_75": 0.015,
+        "bbox_mAP_s": 0.003,
+        "bbox_mAP_m": 0.032,
+        "bbox_mAP_l": 0.111
+      },
+      "CMAGM (Thermal Test)": {
+        "bbox_mAP": 0.182,
+        "bbox_mAP_50": 0.425,
+        "bbox_mAP_75": 0.123,
+        "bbox_mAP_s": 0.029,
+        "bbox_mAP_m": 0.176,
+        "bbox_mAP_l": 0.494
+      }
+    },
+    "prediction_error_analysis": {
+      "score_threshold": 0.3,
+      "iou_threshold": 0.5,
+      "total_gt": 2068,
+      "total_predictions": 975,
+      "tp": 843,
+      "fp": 132,
+      "fn": 1225,
+      "precision": 0.8646,
+      "recall": 0.4076,
+      "f1_score": 0.5541,
+      "scale_breakdown": {
+        "small": {
+          "gt_count": 529,
+          "tp_count": 32,
+          "fp_count": 5,
+          "missed_count": 497,
+          "recall": 0.0605,
+          "precision": 0.8649
+        },
+        "medium": {
+          "gt_count": 1270,
+          "tp_count": 581,
+          "fp_count": 97,
+          "missed_count": 689,
+          "recall": 0.4575,
+          "precision": 0.8569
+        },
+        "large": {
+          "gt_count": 269,
+          "tp_count": 230,
+          "fp_count": 30,
+          "missed_count": 39,
+          "recall": 0.855,
+          "precision": 0.8846
+        }
+      }
+    }
+  },
+  "meta": {
+    "project": "ARGUS | Multi-Modal RGB-Thermal Workstation",
+    "team": "Team Argus",
+    "hackathon": "Yugma TechFest 2.0 \u00b7 MedhaDrishti",
+    "institution": "JNNCE Shivamogga",
+    "models": {
+      "baseline": {
+        "name": "Baseline QFDet",
+        "params": 60634267,
+        "size_mb": 462.63,
+        "ckpt_exists": true
+      },
+      "cmagm": {
+        "name": "CMAGM QFDet (Stage 3)",
+        "params": 60700990,
+        "size_mb": 462.13,
+        "param_delta": 66723,
+        "ckpt_exists": true
+      }
+    }
+  }
+}

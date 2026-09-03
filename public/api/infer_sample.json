@@ -1,0 +1,195 @@
+{
+  "success": true,
+  "model": "CMAGM QFDet (Stage 3)",
+  "modality": "both",
+  "threshold": 0.15,
+  "detections": [
+    {
+      "image_id": 23,
+      "bbox": [
+        974.03,
+        317.97,
+        48.48,
+        111.82
+      ],
+      "score": 0.5748,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        737.85,
+        847.75,
+        50.49,
+        114.82
+      ],
+      "score": 0.4873,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        881.33,
+        1008.1,
+        69.29,
+        71.88
+      ],
+      "score": 0.3734,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        396.21,
+        555.66,
+        49.01,
+        111.19
+      ],
+      "score": 0.3351,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        1188.49,
+        652.5,
+        43.84,
+        117.68
+      ],
+      "score": 0.2771,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        1163.26,
+        530.85,
+        94.59,
+        100.07
+      ],
+      "score": 0.2122,
+      "scale": "large"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        1215.24,
+        44.36,
+        65.04,
+        98.71
+      ],
+      "score": 0.1555,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        477.55,
+        902.39,
+        94.67,
+        153.63
+      ],
+      "score": 0.1503,
+      "scale": "large"
+    }
+  ],
+  "count": 8,
+  "boxes": [
+    {
+      "image_id": 23,
+      "bbox": [
+        974.03,
+        317.97,
+        48.48,
+        111.82
+      ],
+      "score": 0.5748,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        737.85,
+        847.75,
+        50.49,
+        114.82
+      ],
+      "score": 0.4873,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        881.33,
+        1008.1,
+        69.29,
+        71.88
+      ],
+      "score": 0.3734,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        396.21,
+        555.66,
+        49.01,
+        111.19
+      ],
+      "score": 0.3351,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        1188.49,
+        652.5,
+        43.84,
+        117.68
+      ],
+      "score": 0.2771,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        1163.26,
+        530.85,
+        94.59,
+        100.07
+      ],
+      "score": 0.2122,
+      "scale": "large"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        1215.24,
+        44.36,
+        65.04,
+        98.71
+      ],
+      "score": 0.1555,
+      "scale": "medium"
+    },
+    {
+      "image_id": 23,
+      "bbox": [
+        477.55,
+        902.39,
+        94.67,
+        153.63
+      ],
+      "score": 0.1503,
+      "scale": "large"
+    }
+  ],
+  "latency": 142.5,
+  "inference_time_ms": 142.5,
+  "fps": 7.02,
+  "image_size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "model_loaded": true
+}

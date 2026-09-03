@@ -1,0 +1,79 @@
+{
+  "splits": {
+    "train": {
+      "num_images": 1200,
+      "num_annotations": 8138,
+      "avg_instances_per_image": 6.781666666666666,
+      "small": 809,
+      "medium": 5449,
+      "large": 1880,
+      "resolutions": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "categories": [
+        {
+          "id": 0,
+          "name": "person"
+        }
+      ],
+      "scale_pct": {
+        "small": 9.9,
+        "medium": 67.0,
+        "large": 23.1
+      }
+    },
+    "val": {
+      "num_images": 300,
+      "num_annotations": 2337,
+      "avg_instances_per_image": 7.79,
+      "small": 423,
+      "medium": 1592,
+      "large": 322,
+      "resolutions": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "categories": [
+        {
+          "id": 0,
+          "name": "person"
+        }
+      ],
+      "scale_pct": {
+        "small": 18.1,
+        "medium": 68.1,
+        "large": 13.8
+      }
+    },
+    "test": {
+      "num_images": 200,
+      "num_annotations": 2068,
+      "avg_instances_per_image": 10.34,
+      "small": 529,
+      "medium": 1270,
+      "large": 269,
+      "resolutions": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "categories": [
+        {
+          "id": 0,
+          "name": "person"
+        }
+      ],
+      "scale_pct": {
+        "small": 25.6,
+        "medium": 61.4,
+        "large": 13.0
+      }
+    }
+  }
+}

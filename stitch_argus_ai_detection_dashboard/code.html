@@ -3,7 +3,13 @@
 <html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>ARGUS | Obsidian Engineering Console</title>
+<title>ARGUS | Multi-Modal RGB-Thermal Workstation</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0B0F17">
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -191,6 +197,9 @@
 <span class="text-[10px] font-mono-label text-on-surface-variant uppercase">Local Server v2.4.1</span>
 </div>
 <div class="flex items-center gap-1">
+<button id="stitch-theme-toggle" class="p-2 text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center" title="Toggle Light/Dark Theme">
+<span id="stitch-theme-icon" class="material-symbols-outlined text-[18px]">dark_mode</span>
+</button>
 <button class="p-2 text-on-surface-variant hover:text-primary transition-colors">
 <span class="material-symbols-outlined text-[18px]">notifications</span>
 </button>
@@ -202,14 +211,40 @@
 </div>
 </div>
 </div>
+<script>
+  (function() {
+    function getTheme() {
+      return localStorage.getItem('argus-theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    }
+    function apply(theme) {
+      const html = document.documentElement;
+      if (theme === 'light') { html.classList.remove('dark'); html.classList.add('light'); }
+      else { html.classList.remove('light'); html.classList.add('dark'); }
+      localStorage.setItem('argus-theme', theme);
+      const icon = document.getElementById('stitch-theme-icon');
+      if (icon) icon.textContent = theme === 'light' ? 'light_mode' : 'dark_mode';
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      apply(getTheme());
+      const btn = document.getElementById('stitch-theme-toggle');
+      if (btn) btn.addEventListener('click', () => {
+        const cur = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+        apply(cur === 'dark' ? 'light' : 'dark');
+      });
+    });
+  })();
+</script>
 </header>
 <!-- Side Navigation -->
 <aside class="fixed left-0 top-0 bottom-0 w-sidebar-width bg-surface-container-lowest border-r border-outline-variant z-[60] hidden xl:flex flex-col">
 <div class="p-8 border-b border-outline-variant">
-<h1 class="font-display-lg text-2xl tracking-tighter text-on-surface flex items-center gap-2">
-<span class="w-2 h-2 bg-primary"></span> ARGUS
-        </h1>
-<p class="text-[10px] font-mono-label text-outline uppercase tracking-[0.15em] mt-1">Engineering Console</p>
+<div class="flex items-center gap-3">
+<img src="/logo-mark.png" alt="ARGUS Logo" class="h-10 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(99,102,241,0.4)]" />
+<div>
+<h1 class="font-display-lg text-2xl font-extrabold tracking-tighter text-on-surface leading-none">ARGUS</h1>
+<p class="text-[9px] font-mono-label text-outline uppercase tracking-[0.12em] font-semibold mt-1">MULTI-MODAL RGB-THERMAL WORKSTATION</p>
+</div>
+</div>
 </div>
 <div class="flex-1 py-6 overflow-y-auto">
 <div class="px-6 mb-4 text-[10px] font-mono-label text-outline uppercase tracking-widest">Main Modules</div>

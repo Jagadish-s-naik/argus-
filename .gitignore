@@ -24,6 +24,11 @@ visual_comparison_results/
 **/visual_comparison_results/
 stage1_dataset_summary.json
 
+# Whitelist public assets required for Vercel deployment
+!public/
+!public/**
+
+
 # Archives & Large Files
 repo.zip
 *.zip

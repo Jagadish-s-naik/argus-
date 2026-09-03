@@ -1,0 +1,46 @@
+{
+  "image_id": 491,
+  "predictions": [
+    {
+      "image_id": 491,
+      "bbox": [
+        848.97,
+        792.28,
+        57.77,
+        95.33
+      ],
+      "score": 0.6712,
+      "scale": "medium"
+    }
+  ],
+  "ground_truth": [
+    {
+      "id": 1317,
+      "bbox": [
+        855,
+        796,
+        42,
+        95
+      ],
+      "scale": "medium"
+    }
+  ],
+  "count": 1,
+  "gt_count": 1,
+  "image_info": {
+    "filename": "00492.jpg",
+    "width": 1920,
+    "height": 1080,
+    "split": "test"
+  },
+  "stats": {
+    "max_score": 0.6712,
+    "min_score": 0.6712,
+    "avg_score": 0.6712,
+    "by_scale": {
+      "small": 0,
+      "medium": 1,
+      "large": 0
+    }
+  }
+}

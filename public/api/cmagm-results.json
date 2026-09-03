@@ -1,0 +1,98 @@
+{
+  "both_val": {
+    "mode": "both",
+    "split": "val",
+    "model_size_mb": 462.1324653625488,
+    "total_params": 60700990,
+    "inference_time_ms": 4665.733765435699,
+    "fps": 0.21432856015234236,
+    "metrics": {
+      "bbox_mAP": 0.297,
+      "bbox_mAP_50": 0.651,
+      "bbox_mAP_75": 0.233,
+      "bbox_mAP_s": 0.111,
+      "bbox_mAP_m": 0.274,
+      "bbox_mAP_l": 0.588
+    }
+  },
+  "rgb_val": {
+    "mode": "rgb",
+    "split": "val",
+    "model_size_mb": 462.1326484680176,
+    "total_params": 60700990,
+    "inference_time_ms": 12137.335887691317,
+    "fps": 0.08239040340097345,
+    "metrics": {
+      "bbox_mAP": 0.058,
+      "bbox_mAP_50": 0.189,
+      "bbox_mAP_75": 0.022,
+      "bbox_mAP_s": 0.004,
+      "bbox_mAP_m": 0.047,
+      "bbox_mAP_l": 0.166
+    }
+  },
+  "thermal_val": {
+    "mode": "thermal",
+    "split": "val",
+    "model_size_mb": 462.1326484680176,
+    "total_params": 60700990,
+    "inference_time_ms": 3708.4808677634937,
+    "fps": 0.26965219335298307,
+    "metrics": {
+      "bbox_mAP": 0.213,
+      "bbox_mAP_50": 0.479,
+      "bbox_mAP_75": 0.162,
+      "bbox_mAP_s": 0.041,
+      "bbox_mAP_m": 0.189,
+      "bbox_mAP_l": 0.542
+    }
+  },
+  "both_test": {
+    "mode": "both",
+    "split": "test",
+    "model_size_mb": 462.1326484680176,
+    "total_params": 60700990,
+    "inference_time_ms": 2928.151336746599,
+    "fps": 0.34151240321857024,
+    "metrics": {
+      "bbox_mAP": 0.268,
+      "bbox_mAP_50": 0.609,
+      "bbox_mAP_75": 0.201,
+      "bbox_mAP_s": 0.105,
+      "bbox_mAP_m": 0.268,
+      "bbox_mAP_l": 0.549
+    }
+  },
+  "rgb_test": {
+    "mode": "rgb",
+    "split": "test",
+    "model_size_mb": 462.1326484680176,
+    "total_params": 60700990,
+    "inference_time_ms": 3362.8014451894333,
+    "fps": 0.29737111045629044,
+    "metrics": {
+      "bbox_mAP": 0.037,
+      "bbox_mAP_50": 0.117,
+      "bbox_mAP_75": 0.015,
+      "bbox_mAP_s": 0.003,
+      "bbox_mAP_m": 0.032,
+      "bbox_mAP_l": 0.111
+    }
+  },
+  "thermal_test": {
+    "mode": "thermal",
+    "split": "test",
+    "model_size_mb": 462.1326484680176,
+    "total_params": 60700990,
+    "inference_time_ms": 3378.188582520988,
+    "fps": 0.29601663008811235,
+    "metrics": {
+      "bbox_mAP": 0.182,
+      "bbox_mAP_50": 0.425,
+      "bbox_mAP_75": 0.123,
+      "bbox_mAP_s": 0.029,
+      "bbox_mAP_m": 0.176,
+      "bbox_mAP_l": 0.494
+    }
+  }
+}

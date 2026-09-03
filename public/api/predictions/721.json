@@ -1,0 +1,122 @@
+{
+  "image_id": 721,
+  "predictions": [
+    {
+      "image_id": 721,
+      "bbox": [
+        696.49,
+        303.14,
+        94.69,
+        195.49
+      ],
+      "score": 0.8917,
+      "scale": "large"
+    },
+    {
+      "image_id": 721,
+      "bbox": [
+        1636.98,
+        576.24,
+        75.26,
+        125.51
+      ],
+      "score": 0.7275,
+      "scale": "large"
+    },
+    {
+      "image_id": 721,
+      "bbox": [
+        1586.38,
+        561.35,
+        52.89,
+        93.78
+      ],
+      "score": 0.2443,
+      "scale": "medium"
+    },
+    {
+      "image_id": 721,
+      "bbox": [
+        1597.6,
+        565.54,
+        65.7,
+        108.69
+      ],
+      "score": 0.1819,
+      "scale": "medium"
+    },
+    {
+      "image_id": 721,
+      "bbox": [
+        686.84,
+        305.95,
+        70.86,
+        146.63
+      ],
+      "score": 0.0305,
+      "scale": "large"
+    },
+    {
+      "image_id": 721,
+      "bbox": [
+        1664.36,
+        577.11,
+        58.13,
+        109.12
+      ],
+      "score": 0.0203,
+      "scale": "medium"
+    },
+    {
+      "image_id": 721,
+      "bbox": [
+        1657.38,
+        562.24,
+        61.87,
+        81.05
+      ],
+      "score": 0.0126,
+      "scale": "medium"
+    }
+  ],
+  "ground_truth": [
+    {
+      "id": 2465,
+      "bbox": [
+        696,
+        310,
+        98,
+        184
+      ],
+      "scale": "large"
+    },
+    {
+      "id": 2466,
+      "bbox": [
+        1632,
+        573,
+        80,
+        129
+      ],
+      "scale": "large"
+    }
+  ],
+  "count": 7,
+  "gt_count": 2,
+  "image_info": {
+    "filename": "00722.jpg",
+    "width": 1920,
+    "height": 1080,
+    "split": "test"
+  },
+  "stats": {
+    "max_score": 0.8917,
+    "min_score": 0.0126,
+    "avg_score": 0.3013,
+    "by_scale": {
+      "small": 0,
+      "medium": 4,
+      "large": 3
+    }
+  }
+}

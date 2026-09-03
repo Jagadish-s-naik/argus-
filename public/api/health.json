@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "mode": "cloud",
+  "baseline_ckpt": true,
+  "cmagm_ckpt": true,
+  "dataset_available": true,
+  "model_loaded": true,
+  "deployment": "Vercel Edge Cloud",
+  "model": "CMAGM QFDet (Stage 3)"
+}
